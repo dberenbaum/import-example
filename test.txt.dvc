@@ -1,16 +1,16 @@
-md5: 08a283e3bdb796ae64b2c1e9b2660285
-frozen: true
+md5: 511e2e2325f8656382cd226ab0c562ef
 deps:
-- etag: 126a8a51b9d1bbd07fddc65819a542c3
+- etag: 3bc3be114fb6323adc5b0ad7422d193a
   size: 6
-  version_id: BUS93piwNWOBygIVV9IHfy5cXzxjXDJA
+  version_id: 7Whw9PNWGBrP3VX2R6vhbE1kMWLVdU_q
   hash: md5
   path: s3://dave-sandbox-versioning/test.txt
   fs_config:
     version_aware: true
 outs:
-- md5: 126a8a51b9d1bbd07fddc65819a542c3
+- md5: 3bc3be114fb6323adc5b0ad7422d193a
   size: 6
   hash: md5
   path: test.txt
   push: false
+frozen: true

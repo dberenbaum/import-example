@@ -5,10 +5,10 @@ stages:
     deps:
     - path: test.txt
       hash: md5
-      md5: 126a8a51b9d1bbd07fddc65819a542c3
+      md5: 3bc3be114fb6323adc5b0ad7422d193a
       size: 6
     outs:
     - path: test_cp.txt
       hash: md5
-      md5: 126a8a51b9d1bbd07fddc65819a542c3
+      md5: 3bc3be114fb6323adc5b0ad7422d193a
       size: 6
