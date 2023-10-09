@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  test:
+    cmd: cp test.txt test_cp.txt
+    deps:
+    - path: test.txt
+      hash: md5
+      md5: 126a8a51b9d1bbd07fddc65819a542c3
+      size: 6
+    outs:
+    - path: test_cp.txt
+      hash: md5
+      md5: 126a8a51b9d1bbd07fddc65819a542c3
+      size: 6

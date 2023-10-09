@@ -1,0 +1,7 @@
+stages:
+  test:
+    cmd: cp test.txt test_cp.txt
+    deps:
+      - test.txt
+    outs:
+      - test_cp.txt
